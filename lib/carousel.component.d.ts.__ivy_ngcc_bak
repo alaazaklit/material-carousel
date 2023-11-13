@@ -4,7 +4,6 @@ import { AfterContentInit, AfterViewInit, EventEmitter, OnDestroy, QueryList, Re
 import { ThemePalette } from '@angular/material/core';
 import { MatCarousel, Orientation, SvgIconOverrides } from './carousel';
 import { MatCarouselSlideComponent } from './carousel-slide/carousel-slide.component';
-import * as ɵngcc0 from '@angular/core';
 export declare class MatCarouselComponent implements AfterContentInit, AfterViewInit, MatCarousel, OnDestroy {
     private animationBuilder;
     private renderer;
@@ -76,8 +75,4 @@ export declare class MatCarouselComponent implements AfterContentInit, AfterView
     private resetTimer;
     private startTimer;
     private stopTimer;
-    static ɵfac: ɵngcc0.ɵɵFactoryDeclaration<MatCarouselComponent, never>;
-    static ɵcmp: ɵngcc0.ɵɵComponentDeclaration<MatCarouselComponent, "mat-carousel", never, { "timings": "timings"; "hideArrows": "hideArrows"; "hideIndicators": "hideIndicators"; "pauseOnHover": "pauseOnHover"; "color": "color"; "maintainAspectRatio": "maintainAspectRatio"; "proportion": "proportion"; "slideHeight": "slideHeight"; "useKeyboard": "useKeyboard"; "useMouseWheel": "useMouseWheel"; "autoplay": "autoplay"; "interval": "interval"; "loop": "loop"; "maxWidth": "maxWidth"; "slides": "slides"; "orientation": "orientation"; "svgIconOverrides": "svgIconOverrides"; }, { "animationStart": "animationStart"; "change": "change"; }, ["slidesList"], never, false, never>;
 }
-
-//# sourceMappingURL=carousel.component.d.ts.map
